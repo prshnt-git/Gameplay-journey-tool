@@ -1,0 +1,43 @@
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "headers": [
+    {
+      "source": "/data/manifest.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, s-maxage=3600, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/data/matches/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, s-maxage=31536000, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/data/aggregates/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, s-maxage=31536000, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/maps/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, s-maxage=31536000, stale-while-revalidate=86400"
+        }
+      ]
+    }
+  ]
+}
