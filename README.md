@@ -2,7 +2,7 @@
 
 Map-first telemetry explorer for **LILA BLACK** built for the LiLa APM assignment. This repo turns raw parquet journey files into a browser-based review surface for level designers, product reviewers, and telemetry-driven map analysis.
 
-<img width="1092" height="398" alt="Vercel_Page" src="https://github.com/user-attachments/assets/08816b64-1163-4f46-b8d5-1513239cfad7" />
+<img width="1492" height="798" alt="Vercel_Page" src="https://github.com/user-attachments/assets/08816b64-1163-4f46-b8d5-1513239cfad7" />
 
 
 ## Repository Description
